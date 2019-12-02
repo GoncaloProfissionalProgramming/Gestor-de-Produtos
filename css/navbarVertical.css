@@ -1,0 +1,82 @@
+#div{
+  position: absolute;
+  height:10%;
+  width:100%;
+  top:0%;
+  background-color: #6a6093;
+}
+#div2{
+  position: absolute;
+  height:4%;
+  width:100%;
+  top:10%;
+  background-color: #9d97b6;
+  display: inline;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 9%;
+  position: fixed;
+  z-index: 1;
+  top: 4.4%;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-weight: bold;
+  
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #6a6093;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #6a6093;
+  font-weight: bold;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  font-weight: bold;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: white;
+  color: #6a6093;
+  font-weight: bold;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: WHITE;
+  padding-left: 8px;
+  font-weight: bold;
+}
+
+
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

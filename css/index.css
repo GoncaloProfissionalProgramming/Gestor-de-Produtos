@@ -1,0 +1,1010 @@
+body {
+    margin:0;
+    font-family: 'segoe ui' !important;
+    font-style: normal !important;
+    height:100%;
+    background-color:  #beb9d1;
+  }
+
+#container{
+    position: absolute;;
+    top:10%;
+    left:10%;
+    width:89%;
+    height:90%;
+    background-color: white;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+#divGeral{
+    position: absolute;
+    top:5%;
+    left:0%;
+    width:100%;
+    height:95%;
+    background-color: white;
+    color: black;
+    font-size:15px;
+    z-index: 1;
+}
+
+#divFamilias{
+    position: absolute;
+    top:5%;
+    left:0%;
+    width:100%;
+    height:95%;
+    background-color: white;
+    color: black;
+    font-size:15px;
+    z-index: 0;
+}
+
+#divDescricoes{
+    position: absolute;
+    top:5%;
+    left:0%;
+    width:100%;
+    height:95%;
+    background-color: white;
+    color: black;
+    font-size:15px;
+    z-index: 0;
+}
+
+#divPrecos{
+    position: absolute;
+    top:5%;
+    left:0%;
+    width:100%;
+    height:95%;
+    background-color: white;
+    color: black;
+    font-size:15px;
+    z-index: 0;
+}
+
+#Pag{
+    position: absolute;
+    width: 20%;
+    height:5%;
+    top:6%;
+    left:10%;
+    color: #6a6093;
+    z-index: 1;
+
+}
+
+#Nav1{
+    position: absolute;
+    left:0%;
+    top:0%;
+    width:1%;
+    height:11%;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 8px;
+    padding-right: 25px;
+    font-size: 20px;   
+    color:white; 
+    vertical-align:center;
+    text-align:center;
+}
+#Nav2{
+    position: absolute;
+    left:20%;
+    top:0%;
+    width:1%;
+    height:11%;
+    border-left: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 8px;
+    padding-right: 27px;
+    font-size: 20px;   
+    color:white; 
+
+    
+
+}
+#Nav3{
+    position: absolute;
+    left:40%;
+    top:0%;
+    width:1%;
+    height:11%;
+    border-left: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 23px;
+    font-size: 20px;   
+    color:white; 
+  
+
+}
+#Nav4{
+    position: absolute;
+    left:61%;
+    top:0%;
+    width:1%;
+    height:11%;
+    border-left: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 8px;
+    padding-right: 24px;
+    font-size: 20px;   
+    color:white; 
+
+
+}
+#Nav5{
+    position: absolute;
+    left:81%;
+    top:0%;
+    width:1%;
+    height:11%;
+    border-left: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 25px;
+    vertical-align:center;
+    text-align:center;
+    font-size: 20px;   
+    color:white; 
+    
+
+}
+/*CSS GERAL*/
+#divContainer2{
+    position:absolute;
+    top:0%;
+    left:2%;
+    width:80%;
+    height:90%;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size:15px;
+    z-index: 1;
+}
+
+#divContainer3{
+    position:absolute;
+    top:0%;
+    left:81.5%;
+    width:18%;
+    height:90%;
+    background-color:white;
+    color: black;
+    font-weight: 500;
+    font-size:15px;
+}
+
+#Ref{
+    position:absolute;
+    top:11%;
+    left:0%;
+    width:15%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#VBtn{
+    position:absolute;
+    top:11%;
+    left:16%;
+    width:2%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#Desig{
+    position:absolute;
+    top:11%;
+    left:30%;
+    width:70%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#DesigB2B{
+    position:absolute;
+    top:16%;
+    left:0%;
+    width:47.5%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#DesigB2C{
+    position:absolute;
+    top:16%;
+    left:52.5%;
+    width:47.5%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#DesigB2BIng{
+    position:absolute;
+    top:21%;
+    left:0%;
+    width:47.5%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#DesigB2Cing{
+    position:absolute;
+    top:21%;
+    left:52.5%;
+    width:47.5%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#Metadados{
+    position:absolute;
+    top:26%;
+    left:0%;
+    width:47.5%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#MetaKeys{
+    position:absolute;
+    top:26%;
+    left:52.5%;
+    width:47.5%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#DescCurta{
+    position:absolute;
+    top:31%;
+    left:0%;
+    width:100%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#Checkbox{
+    position: absolute;
+    top:37%;
+    font-weight: normal;
+}
+
+#Checkbox2{
+    position: absolute;
+    top:37%;
+    left:13%;
+    font-weight: normal;
+}
+
+#Checkbox3{
+    position: absolute;
+    top:37%;
+    left:30%;
+    font-weight: normal;
+}
+
+#Checkbox4{
+    position: absolute;
+    top:37%;
+    left:47%;
+    font-weight: normal;
+}
+
+#Checkbox5{
+    position: absolute;
+    top:37%;
+    left:65%;
+    font-weight: normal;
+}
+
+#CheckboxInput{
+    background-color: white;
+    border: 0.5px solid #beb9d1;
+
+}
+
+#TextInfoCodBarra{
+    position: absolute;
+    top:46%;
+    font-size:15px;
+    color: black;
+    left: 0%;
+}
+
+#Barcode1{
+    position:absolute;
+    top:56%;
+    left:0%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#Barcode2{
+    position:absolute;
+    top:56%;
+    left:25.2%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#Barcode3{
+    position:absolute;
+    top:56%;
+    left:50.45%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#Barcode4{
+    position:absolute;
+    top:56%;
+    left:75.7%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#TextArtigo{
+    position: absolute;
+    top:62%;
+    font-size:15px;
+    color: black;
+    left: 0%;
+}
+
+#SelectBoxTipoArt{
+    position:absolute;
+    top:67%;
+    left:0%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#CapacB2BText{
+    position: absolute;
+    top:62%;
+    font-size:15px;
+    color: black;
+    left: 25%;
+}
+
+#CapacB2B{
+    position:absolute;
+    top:67%;
+    left:25.2%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#TextMarca{
+    position: absolute;
+    top:72%;
+    font-size:15px;
+    color: black;
+    left: 0%;
+}
+
+#SelectBoxMarca{
+    position:absolute;
+    top:77%;
+    left:0%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#FornecedorText{
+    position: absolute;
+    top:72%;
+    font-size:15px;
+    color: black;
+    left: 25%;
+}
+
+#SelectBoxFornecedor{
+    position:absolute;
+    top:77%;
+    left:25.2%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#TextAlt{
+    position: absolute;
+    top:72%;
+    font-size:15px;
+    color: black;
+    left: 50.45%;
+}
+
+#Alt{
+    position:absolute;
+    top:77%;
+    left:50.45%;
+    width:7.3%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#TextLarg{
+    position: absolute;
+    top:72%;
+    font-size:15px;
+    color: black;
+    left: 59%;
+}
+
+#Larg{
+    position:absolute;
+    top:77%;
+    left:59.005%;
+    width:7.3%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#TextComp{
+    position: absolute;
+    top:72%;
+    font-size:15px;
+    color: black;
+    left: 67.45%;
+}
+
+#Comp{
+    position:absolute;
+    top:77%;
+    left:67.45%;
+    width:7.3%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#TextPeso{
+    position: absolute;
+    top:72%;
+    font-size:15px;
+    color: black;
+    left: 75.7%;
+}
+
+#Peso{
+    position:absolute;
+    top:77%;
+    left:75.7%;
+    width:6%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#TextStockMin{
+    position: absolute;
+    top:72%;
+    font-size:15px;
+    color: black;
+    left: 84%;
+}
+
+#StockMin{
+    position:absolute;
+    top:77%;
+    left:84%;
+    width:16.01%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#TextRefProdPai{
+    position: absolute;
+    top:82%;
+    font-size:15px;
+    color: black;
+    left: 0%;
+}
+
+#SelectBoxRefProdPai{
+    position:absolute;
+    top:87%;
+    left:0%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#TamText{
+    position: absolute;
+    top:82%;
+    font-size:15px;
+    color: black;
+    left: 25%;
+}
+
+#SelectBoxTam{
+    position:absolute;
+    top:87%;
+    left:25.2%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#TamText{
+    position: absolute;
+    top:82%;
+    font-size:15px;
+    color: black;
+    left: 25%;
+}
+
+#SelectBoxTam{
+    position:absolute;
+    top:87%;
+    left:25.2%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#CorText{
+    position: absolute;
+    top:82%;
+    font-size:15px;
+    color: black;
+    left:50.45%;
+}
+
+#SelectBoxCor{
+    position:absolute;
+    top:87%;
+    left:50.45%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#GravarText{
+    position: absolute;
+    top:92%;
+    font-size:15px;
+    color: black;
+    left:0%;
+}
+
+.btnDuplicar{
+    position: absolute;
+    top: 97%;
+    left: 0%;
+    width: 8%;
+    height:4%;
+    background-color: rgb(9, 157, 216);
+    font-weight:bold; 
+    color: white;
+    border: 0cm;
+}
+
+.btnGeL{
+    position: absolute;
+    top: 97%;
+    left: 8.5%;
+    width: 10%;
+    height:4%;
+    background-color: rgb(9, 157, 216);
+    font-weight:bold; 
+    color: white;
+    border: 0cm;
+}
+
+.btnGeN{
+    position: absolute;
+    top: 97%;
+    left: 19.1%;
+    width: 10%;
+    height:4%;
+    background-color: rgb(9, 157, 216);
+    font-weight:bold; 
+    color: white;
+    border: 0cm;
+}
+
+.btnAGravar{
+    position: absolute;
+    top: 97%;
+    left: 29.7%;
+    width: 10%;
+    height:4%;
+    background-color: rgb(9, 157, 216);
+    font-weight:bold; 
+    color: white;
+    border: 0cm;
+}
+
+/*Table 1*/
+table {
+    position: absolute;
+    width:85%;
+    font-size: 12px;
+    left: 8%;
+    top:44%;
+   
+
+  }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    z-index: 1;
+  }
+th, td {
+    padding: 3px;
+    
+  }
+table#t01 tr:nth-child(even) {
+    background-color: #FFF;
+  }
+table#t01 tr:nth-child(odd) {
+   background-color: #EEE;
+  }
+table#t01 th {
+    background-color: #EEE;
+    color: black;
+  }
+th{
+      font-size: 10px;
+  }
+
+td{
+      text-align: right;
+  }
+
+#TableText1{
+    position: absolute;
+    top:40%;
+    font-size:15px;
+    color: black;
+    left:8%;
+    font-weight: 500;
+}
+
+#ImagensText{
+    position: absolute;
+    top:6%;
+    font-size:15px;
+    color: black;
+    left:17%;
+    font-weight: 500;
+}
+
+#ImagensBox{
+    position: absolute;
+    top:10%;
+    width: 50%;
+    height: 10%;
+    font-size:15px;
+    color: white;
+    left:17%;
+    font-weight: 500;
+    background-color: #beb9d1;
+    text-align: center;
+    vertical-align: center;
+    border-style: dashed;
+    padding: 50px 25px 25px 25px;
+}
+
+#TableText2{
+    position: absolute;
+    top:71%;
+    font-size:15px;
+    color: black;
+    left:8%;
+    font-weight: 500;
+}
+
+/*FIM CSS GERAL*/
+
+/*INICIO CSS FAMILIAS*/
+
+#SelectBoxf1{
+    position:absolute;
+    top:17%;
+    left:0%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+
+#SelectBoxf2{
+    position:absolute;
+    top:17%;
+    left:25.2%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+/*FIM CSS FAMILIAS*/
+
+/*INICIO CSS DESCRIÇÃO*/
+#DescPT{
+    position:absolute;
+    top:13%;
+    left:8%;
+    width:40%;
+    height:20%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#DescEN{
+    position:absolute;
+    top:13%;
+    left:50%;
+    width:40%;
+    height:20%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#Esp{
+    position: absolute;
+    top:50%;
+    font-size:15px;
+    color: black;
+    left:0%;
+    font-weight: 500;
+}
+
+#Tipo{
+    position: absolute;
+    top:57%;
+    font-size:15px;
+    color: black;
+    left:0%;
+    font-weight: 500;
+}
+
+#SelectBoxTipo{
+    position:absolute;
+    top:57%;
+    left:8%;
+    width:24.33%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#Link{
+    position:absolute;
+    top:57%;
+    left:35%;
+    width:55%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+/*FIM CSS DESCRIÇÃO*/
+
+/*INICIO CSS PREÇOS*/
+
+#SIva{
+    position: absolute;
+    top:9%;
+    font-size:15px;
+    color: black;
+    left:8.5%;
+    font-weight: 500;
+}
+
+#Iva{
+    position: absolute;
+    top:9%;
+    font-size:15px;
+    color: black;
+    left:20%;
+    font-weight: 500;
+}
+
+#CIva{
+    position: absolute;
+    top:9%;
+    font-size:15px;
+    color: black;
+    left:30%;
+    font-weight: 500;
+}
+#Tab{
+    position: absolute;
+    top:13%;
+    font-size:15px;
+    color: black;
+    left:0%;
+    font-weight: 500;
+}
+
+#SIvaInput{
+    position:absolute;
+    top:13%;
+    left:5%;
+    width:10%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#SelectBoxIva{
+    position:absolute;
+    top:13%;
+    left:16%;
+    width:10%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#CIvaInput{
+    position:absolute;
+    top:13%;
+    left:27%;
+    width:10%;
+    height:3%;
+    color: black;
+    font-weight: 500;
+    font-size:12px;
+    border: 0.5px solid #beb9d1;
+}
+
+#Tab2{
+    position: absolute;
+    top:25%;
+    font-size:15px;
+    color: black;
+    left:0%;
+    font-weight: 500;
+}
+
+#Tab3{
+    position: absolute;
+    top:27%;
+    font-size:15px;
+    color: black;
+    left:0%;
+    font-weight: 500;
+}
+
+#Tab4{
+    position: absolute;
+    top:35%;
+    font-size:15px;
+    color: black;
+    left:0%;
+    font-weight: 500;
+}
+
+#Tab5{
+    position: absolute;
+    top:42%;
+    font-size:15px;
+    color: black;
+    left:0%;
+    font-weight: 500;
+}
+
+/*FIM CSS PREÇOS*/

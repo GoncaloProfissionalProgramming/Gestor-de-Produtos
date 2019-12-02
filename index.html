@@ -1,0 +1,452 @@
+
+<html>
+    <head>
+         
+            <link rel="stylesheet" type="text/css" href="css/index.css">
+            <link rel="stylesheet" type="text/css" href="css/indexResp.css">
+            <link rel="stylesheet" type="text/css" href="css/navbar.css">
+            <link rel="stylesheet" type="text/css" href="css/navbarVertical.css">
+            <link rel="stylesheet" type="text/css" href="css/navbarCont.css">
+            <link rel="stylesheet" type="text/css" href="css/navbarVertical1.css">
+            <script src="scriptChangePage.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <meta charset="UTF-8">    
+        
+          
+    </head>
+   
+    <body onload="LoadPage()">
+            <div class="nav">
+                    <div class="nav-header">
+                      <div class="nav-title">
+                    
+                      </div>
+                    </div>
+                    <div class="nav-btn">
+                      <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </label>
+                    </div>
+                    <input type="checkbox" id="nav-check">
+                    <div class="nav-links">
+                      <a href="#">Gestão &#9660;</a>
+                    </div>
+                  </div>
+                
+        
+                  <div class="sidenav">
+                      <div id="div"></div>
+                          <div id="div2">
+                          
+                           
+                                <a href="#" id="Nav1"> <i class="fa fa-ellipsis-h" ></i></a>
+                                <a href="#" id="Nav2"> <i class="fa fa-th" ></i></a>
+                                <a href="#" id="Nav3"> <i class="fa fa-pie-chart" ></i></a>
+                                <a href="#" id="Nav4"> <i class="fa fa-gear"  ></i></a>
+                                <a href="#" id="Nav5"> <i class="fa fa-sign-out" ></i></a>
+                            
+                            
+                          </div><br><br><br><br><br><br>
+                            <a href="#about">FAVORITOS</a>
+                            <a href="#about" id="Dashboard" onclick="Dashboard()"><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;DASHBOARD</a><br>
+                            <a href="#about" style="border-bottom: 0.5px solid black">  MENU</a><br>
+                            <button class="dropdown-btn">PRODUTOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9660;</button>
+                                  <div class="dropdown-container">
+                                    <a href="#">NOVO PRODUTO</a>
+                                    <a href="#">EDITAR PRODUTO</a>
+                                    <a href="#">ORDENAR PRODUTO</a>
+                                  </div>
+                           
+                </div> 
+                <div id="Pag"><i class="fa fa-home"></i>&nbsp;&nbsp;Home   &nbsp;&nbsp; > &nbsp;&nbsp;  Produto &nbsp;&nbsp;   >&nbsp;&nbsp;Novo Produto</div> 
+                <div id="container">
+                        <div class="nav2">
+                                <div class="nav-header2">
+                                  <div class="nav-title2">
+                                
+                                  </div>
+                                </div>
+                                <div class="nav-btn2">
+                                  <label for="nav-check2">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                  </label>
+                                </div>
+                                <input type="checkbox" id="nav-check2">
+                                <div class="nav-links2">
+                                  <a href="#divGeral" onclick="changePageGeral()" id="Geral">GERAL</a>
+                                  <a href="#divFamilias" onclick="changePageFam()" id="Familias">FAMÍLIAS</a>
+                                  <a href="#divDescricoes" onclick="changePageDesc()" id="Descricoes">DESCRIÇÕES</a>
+                                  <a href="#divPrecos" onclick="changePagePreco()" id="Precos">PREÇOS</a>
+                                </div>
+                              </div>
+                <div id="divGeral">  
+
+                      <div id="divContainer2">
+                        <br><br>REFERÊNCIAS | DESIGNAÇÕES | TRADUÇÕES
+                        <form>
+                         
+                          <input type="text" name="Referência" id="Ref" placeholder="&nbsp;&nbsp;&nbsp;Referência"><br>
+
+                          <button id="VBtn"><a href="" style="color:black;">V</button></a>
+                                                   
+                          <input type="text" name="Designação" id="Desig" placeholder="&nbsp;&nbsp;&nbsp;Designação"><br>
+                           
+                          <input type="text" name="Designação B2B" id="DesigB2B" placeholder="&nbsp;&nbsp;&nbsp;Designação B2B"><br>
+                                                   
+                          <input type="text" name="Designação B2C" id="DesigB2C" placeholder="&nbsp;&nbsp;&nbsp;Designação B2C"><br>
+
+                          <input type="text" name="Designação B2B" id="DesigB2BIng" placeholder="&nbsp;&nbsp;&nbsp;Designação INGLÊS B2B"><br>
+                                                   
+                          <input type="text" name="Designação B2C" id="DesigB2CIng" placeholder="&nbsp;&nbsp;&nbsp;Designação INGLÊS B2C"><br>
+
+                          <input type="text" name="Metadados" id="Metadados" placeholder="&nbsp;&nbsp;&nbsp;Metadados"><br>
+                                                   
+                          <input type="text" name="MetaKeys" id="MetaKeys" placeholder="&nbsp;&nbsp;&nbsp;MetaKeys"><br>
+
+                          <input type="text" name="DescCurta" id="DescCurta" placeholder="&nbsp;&nbsp;&nbsp;Descrição Curta"><br>
+
+                          <label id="Checkbox"><input type="checkbox" id="CheckboxInput">Descontinuado</label>        
+                          <label id="Checkbox2"><input type="checkbox">Online B2B</label>  
+                          <label id="Checkbox3"><input type="checkbox">Online B2C</label>        
+                          <label id="Checkbox4"><input type="checkbox">Destaque</label>   
+                          <label id="Checkbox5"><input type="checkbox">Sob Enc.</label>   
+                          
+                          <div id="TextInfoCodBarra">INFORMAÇÃO<br><br>CÓDIGOS DE BARRA</div>
+
+                          <input type="text" name="Barcode1" id="Barcode1" placeholder="&nbsp;&nbsp;&nbsp;Barcode 1"><br>
+
+                          <input type="text" name="Barcode2" id="Barcode2" placeholder="&nbsp;&nbsp;&nbsp;Barcode 2"><br>
+                                                   
+                          <input type="text" name="Barcode3" id="Barcode3" placeholder="&nbsp;&nbsp;&nbsp;Barcode 3"><br>
+
+                          <input type="text" name="Barcode4" id="Barcode4" placeholder="&nbsp;&nbsp;&nbsp;Barcode 4"><br>
+                          
+                          <div id="TextArtigo">TIPO DE ARTIGO</div>
+
+                          <select id="SelectBoxTipoArt">
+                              <option value="volvo">NORMAL</option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                          </select>
+                          
+                          <div id="CapacB2BText">CAPACIDADE B2B</div>
+
+                          <input type="text" name="Capacidade B2B" id="CapacB2B" placeholder="&nbsp;&nbsp;&nbsp;Capacidade B2B">
+
+                          <div id="TextMarca">MARCA</div>
+
+                          <select id="SelectBoxMarca">
+                              <option></option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                          </select>
+                          
+                          <div id="FornecedorText">FORNECEDOR</div>
+                          
+                          <select id="SelectBoxFornecedor">
+                              <option>ESCOLHA UM</option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                          </select>
+
+                          <div id="TextAlt">ALT</div>
+
+                          <input type="text" name="Alt" id="Alt" placeholder="&nbsp;&nbsp;&nbsp;TAM - A"><br>
+
+                          <div id="TextLarg">LARG</div>
+
+                          <input type="text" name="LARG" id="Larg" placeholder="&nbsp;&nbsp;&nbsp;TAM - L"><br>
+
+                          <div id="TextComp">COMP</div>
+                                                   
+                          <input type="text" name="Comp" id="Comp" placeholder="&nbsp;&nbsp;&nbsp;TAM - C"><br>
+
+                          <div id="TextPeso">PESO</div>
+
+                          <input type="text" name="Peso" id="Peso" placeholder="&nbsp;&nbsp;&nbsp;PESO"><br>
+
+                          <div id="TextStockMin">STOCK MIN</div>
+
+                          <input type="text" name="StockMin" id="StockMin" placeholder="&nbsp;&nbsp;&nbsp;STOCK MIN"><br>
+
+
+                          <div id="TextRefProdPai">REF. PRODUTO PAI</div>
+
+                          <select id="SelectBoxRefProdPai">
+                              <option></option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                          </select>
+                          
+                          <div id="TamText">TAM</div>
+                          
+                          <select id="SelectBoxTam">
+                              <option></option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                          </select>
+
+                          <div id="CorText">COR</div>
+                          
+                          <select id="SelectBoxCor">
+                              <option></option>
+                              <option value="saab">Saab</option>
+                              <option value="opel">Opel</option>
+                              <option value="audi">Audi</option>
+                              <option value="audi">Aodi</option>
+                          </select>
+
+                          <div id="GravarText">GRAVAR</div>
+
+                        </form>
+                        <button class="btnDuplicar">DUPLICAR</button>
+                        <button class="btnGeL">GRAVAR & LISTAR</button>
+                        <button class="btnGeN">GRAVAR & NOVO</button>
+                        <button class="btnAGravar">APENAS GRAVAR</button>
+                        
+                    </div>
+                    <div id="divContainer3">
+                      <table id="t01">
+                          <tr>
+                            <th>PREÇO</th>
+                            <th>VALOR S/IVA</th> 
+                            <th>VALOR C/IVA</th>
+                            <th>MARGEM</th>
+                          </tr>
+                          <tr>
+                            <td style="text-align:left;">Preço de Custo</td>
+                            <td>1</td>
+                            <td>50</td>
+                            <td>50</td>
+                          </tr>
+                          <tr>
+                            <td style="text-align:left;">Preço1</td>
+                            <td>1</td>
+                            <td>94</td>
+                            <td>50</td>
+                          </tr>
+                          <tr>
+                              <td style="text-align:left;">Preço2</td>
+                              <td>1</td>
+                              <td>80</td>
+                              <td>50</td>
+                            </tr>
+                          <tr>
+                              <td style="text-align:left;">Preço3</td>
+                              <td>1</td>
+                              <td>80</td>
+                              <td>50</td>
+                          </tr>
+                          <tr>
+                              <td style="text-align:left;">Preço4</td>
+                              <td>1</td>
+                              <td>80</td>
+                              <td>50</td>
+                          </tr>
+                          <tr>
+                              <td style="text-align:left;">Preço5</td>
+                              <td>1</td>
+                              <td>80</td>
+                              <td>50</td>
+                          </tr>
+                      </table>
+                      <div id="TableText1">PREÇOS</div>
+
+                   
+                      <div id="ImagensText">IMAGENS</div>
+                      <div id="ImagensBox">
+                        <form action="uploadfiles.php" method="post">
+                          <input type="file" id="my_upload" name="my_upload" style="top:20%;">
+                          <input type="submit" value="Upload Now">
+                        </form> FILES HERE TO UPLOAD</div>
+                      <div id="TableText2">STOCK</div>
+
+                      <table id="t01" style="top:75%;">
+                          <tr>
+                            <th>ARMAZÉM</th>
+                            <th>EXISTÊNCIA</th> 
+                            
+                          </tr>
+                          <tr>
+                            <td style="text-align:left;">LOJA</td>
+                            <td>1</td>
+                            
+                          </tr>
+                          <tr>
+                            <td style="text-align:left;">ARMAZÉM/ESCRIT</td>
+                            <td>1</td>
+                            
+                          </tr>
+                          <tr>
+                              <td style="text-align:left;">KISLOG</td>
+                              <td>1</td>
+                              
+                            </tr>
+                          
+                      </table>
+                    </div> 
+                   
+                  
+                
+                  
+                  
+                  </div> 
+                  <div id="divFamilias">
+                    <div id="divContainer2">
+                         <br><br>FAMILIAS
+                         <br><br>ADICIONAR FAMILIA &nbsp;&nbsp;&nbsp;&nbsp;<button id="button" onclick="familiaM()">+</button>
+                         <select id="SelectBoxf1">
+                             <option value="Fam1">FAMILIA 1</option>
+                             <option value="Fam2">FAMILIA 2</option>
+                         </select>
+                         
+                         <select id="SelectBoxF2" onLoad="SelectBox()">
+                             <option value="SFA">SFA</option>
+                             <option value="SFB">SFB</option>
+                             <option value="SFC">SFC</option>
+                            
+                         </select>
+   
+                       </div>
+                     </div>           
+                     
+                     <div id="divDescricoes">
+                           <div id="divContainer2">
+                           <br><br>DESCRIÇÕES
+                           <form>
+                               <input type="text" name="Referência" id="DescPT" placeholder="&nbsp;&nbsp;&nbsp;DESCRIÇÃO PT">
+   
+                               <input type="text" name="Referência" id="DescEN" placeholder="&nbsp;&nbsp;&nbsp;DESCRIÇÃO EN">
+                           </form>
+                           <div id="Esp">ESPECIFICAÇÕES &nbsp;&nbsp;&nbsp;&nbsp;<button onclick="familiaM()">+</button></div>
+   
+                           <div id="Tipo">TIPO &nbsp;&nbsp;&nbsp;&nbsp;</div>
+   
+                           <select id="SelectBoxTipo">
+                               <option></option>
+                               <option value="saab">Saab</option>
+                               <option value="opel">Opel</option>
+                               <option value="audi">Audi</option>
+                           </select>
+                           <input type="text" name="Referência" id="Link" placeholder="&nbsp;&nbsp;&nbsp;LINK">
+                         </div>
+                             
+                    </div>
+                    <div id="divPrecos">
+                        <div id="divContainer2">
+                        <br><br>PREÇOS
+                        
+                        <div id="Tab" style="top:13%;">TAB1</div>
+                        <div id="SIva">S/IVA</div>
+                        <div id="Iva">IVA</div>
+                        <div id="CIva">C/IVA</div>
+                        <form>
+
+                      <!-----TAB1-------->
+                            <input type="text" name="Referência" id="SIvaInput" placeholder="&nbsp;&nbsp;&nbsp;100">
+                            <select id="SelectBoxIva">
+                                <option value="23">23</option>
+                                <option value="6">6</option>
+                                <option value="13">13</option>
+                            </select>
+                            <input type="text" name="Referência" id="CIvaInput" placeholder="&nbsp;&nbsp;&nbsp;100" readonly>
+                      <!-----TAB2-------->
+                            <input  style="top:25%;" type="text" name="Referência" id="SIvaInput" placeholder="&nbsp;&nbsp;&nbsp;100">
+                            <select id="SelectBoxIva" style="top:25%;">
+                                <option value="23">23</option>
+                                <option value="6">6</option>
+                                <option value="13">13</option>
+                            </select>
+                            <input style="top:25%;" type="text" name="Referência" id="CIvaInput" placeholder="&nbsp;&nbsp;&nbsp;100" readonly>
+
+                      <!-----TAB3-------->
+                            <input  style="top:37%;" type="text" name="Referência" id="SIvaInput" placeholder="&nbsp;&nbsp;&nbsp;100">
+                            <select id="SelectBoxIva" style="top:37%;">
+                                <option value="23">23</option>
+                                <option value="6">6</option>
+                                <option value="13">13</option>
+                            </select>
+                            <input style="top:37%;" type="text" name="Referência" id="CIvaInput" placeholder="&nbsp;&nbsp;&nbsp;100" readonly>
+
+
+                      <!-----TAB4-------->
+                            <input  style="top:49%;" type="text" name="Referência" id="SIvaInput" placeholder="&nbsp;&nbsp;&nbsp;100">
+                            <select id="SelectBoxIva" style="top:49%;">
+                                <option value="23">23</option>
+                                <option value="6">6</option>
+                                <option value="13">13</option>
+                            </select>
+                            <input style="top:49%;" type="text" name="Referência" id="CIvaInput" placeholder="&nbsp;&nbsp;&nbsp;100" readonly>
+
+
+                      <!-----TAB5-------->
+                            <input  style="top:61%;" type="text" name="Referência" id="SIvaInput" placeholder="&nbsp;&nbsp;&nbsp;100">
+                            <select id="SelectBoxIva" style="top:61%;">
+                                <option value="23">23</option>
+                                <option value="6">6</option>
+                                <option value="13">13</option>
+                            </select>
+                            <input style="top:61%;" type="text" name="Referência" id="CIvaInput" placeholder="&nbsp;&nbsp;&nbsp;100" readonly>
+
+                        </form>
+
+
+                        <div id="Tab" style="top:25%;">TAB2</div>
+                        <div id="SIva" style="top:21%">S/IVA</div>
+                        <div id="Iva" style="top:21%">IVA</div>
+                        <div id="CIva" style="top:21%">C/IVA</div>
+                        
+
+                        <div id="Tab" style="top:37%;">TAB3</div>
+                        <div id="SIva" style="top:33%">S/IVA</div>
+                        <div id="Iva" style="top:33%">IVA</div>
+                        <div id="CIva" style="top:33%">C/IVA</div>
+
+
+                        <div id="Tab" style="top:49%;">TAB4</div>
+                        <div id="SIva" style="top:45%">S/IVA</div>
+                        <div id="Iva" style="top:45%">IVA</div>
+                        <div id="CIva" style="top:45%">C/IVA</div>
+
+                        <div id="Tab" style="top:61%;">TAB5</div>
+                        <div id="SIva" style="top:57%">S/IVA</div>
+                        <div id="Iva" style="top:57%">IVA</div>
+                        <div id="CIva" style="top:57%">C/IVA</div>
+                      </div>
+                   </div>
+         
+                </div>
+
+                  
+                
+    
+    
+              </body>
+    <script>
+            var dropdown = document.getElementsByClassName("dropdown-btn");
+            var i;
+            
+            for (i = 0; i < dropdown.length; i++) {
+              dropdown[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var dropdownContent = this.nextElementSibling;
+              if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+              } else {
+              dropdownContent.style.display = "block";
+              }
+              });
+            }
+            </script>
+</html>
